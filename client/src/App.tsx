@@ -1,8 +1,11 @@
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="flex w-screen">
-      <header className="w-full bg-black">dwa</header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Header />} />
+    </Routes>
   );
 }
 
