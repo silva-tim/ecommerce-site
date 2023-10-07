@@ -4,7 +4,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Header />} />
+      <Route path="/" element={<Header />}></Route>
     </Routes>
   );
 }
