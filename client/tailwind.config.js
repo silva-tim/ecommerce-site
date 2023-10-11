@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
       },
     },
   },
