@@ -10,11 +10,15 @@ export default function Home() {
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="flex items-center justify-center h-screen gap-4 p-10 basis-full">
-          <div className="bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/women.jpg')]">
-            <span className="px-4 py-2 text-3xl bg-white font-mont">Women</span>
+          <div className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/women.jpg')]">
+            <span className="px-4 py-2 text-3xl transition bg-white group-hover:bg-black group-hover:text-white font-mont">
+              Women
+            </span>
           </div>
-          <div className="bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/men.jpg')]">
-            <span className="px-4 py-2 text-3xl bg-white font-mont">Men</span>
+          <div className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/men.jpg')]">
+            <span className="px-4 py-2 text-3xl transition bg-white group-hover:bg-black group-hover:text-white font-mont">
+              Men
+            </span>
           </div>
         </div>
         {/* <div className="flex flex-wrap p-4 border border-black rounded-md">
