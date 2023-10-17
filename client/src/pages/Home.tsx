@@ -8,16 +8,16 @@ export default function Home() {
           THESIS
         </span>
       </div>
-      <div className="flex flex-wrap justify-center p-10">
-        <div className="flex justify-center h-screen gap-4 basis-full">
-          <div className="bg-cover flex basis-1/2 justify-center items-center h-4/5 bg-center bg-[url('/images/women.jpg')]">
+      <div className="flex flex-wrap justify-center">
+        <div className="flex items-center justify-center h-screen gap-4 p-10 basis-full">
+          <div className="bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/women.jpg')]">
             <span className="px-4 py-2 text-3xl bg-white font-mont">Women</span>
           </div>
-          <div className="bg-cover flex basis-1/2 justify-center items-center h-4/5 bg-center bg-[url('/images/men.jpg')]">
+          <div className="bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/men.jpg')]">
             <span className="px-4 py-2 text-3xl bg-white font-mont">Men</span>
           </div>
         </div>
-        <div className="flex flex-wrap p-4 border border-black rounded-md">
+        {/* <div className="flex flex-wrap p-4 border border-black rounded-md">
           <div className="flex items-center basis-full">
             <BsDot />
             <span className="flex font-serif text-2xl basis-full">thesis</span>
@@ -26,7 +26,7 @@ export default function Home() {
             1. a statement or theory that is put forward as a premise to be
             maintained or proved.
           </span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
