@@ -1,4 +1,5 @@
 import { BsDot } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -10,12 +11,18 @@ export default function Home() {
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="flex items-center justify-center h-screen gap-5 p-10 basis-full">
-          <div className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/women.jpg')] transition bg-blend-overlay hover:bg-black hover:bg-opacity-20">
+          <Link
+            to="/women"
+            className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/women.jpg')] transition bg-blend-overlay hover:bg-black hover:bg-opacity-20"
+          >
             <span className="px-4 py-2 text-3xl bg-white font-mont">Women</span>
-          </div>
-          <div className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/men.jpg')] transition bg-blend-overlay hover:bg-black hover:bg-opacity-20">
+          </Link>
+          <Link
+            to="/men"
+            className="group bg-cover flex basis-1/2 justify-center items-center h-5/6 bg-center bg-[url('/images/men.jpg')] transition bg-blend-overlay hover:bg-black hover:bg-opacity-20"
+          >
             <span className="px-4 py-2 text-3xl bg-white font-mont">Men</span>
-          </div>
+          </Link>
         </div>
         {/* <div className="flex flex-wrap p-4 border border-black rounded-md">
           <div className="flex items-center basis-full">
