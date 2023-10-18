@@ -24,16 +24,23 @@ export default function Home() {
             <span className="px-4 py-2 text-3xl bg-white font-mont">Men</span>
           </Link>
         </div>
-        {/* <div className="flex flex-wrap p-4 border border-black rounded-md">
-          <div className="flex items-center basis-full">
+        <div className="h-96 basis-5/6 bg-center bg-cover rounded-xl bg-[url('/images/about.jpg')]">
+          <div className="w-full h-full backdrop-blur-sm">
+            <div className="flex justify-center basis-full">
+              <span className="p-10 text-3xl font-black text-white font-mont">
+                About
+              </span>
+            </div>
+            {/* <div className="flex items-center basis-full">
             <BsDot />
             <span className="flex font-serif text-2xl basis-full">thesis</span>
-          </div>
-          <span className="pt-2">
+            </div>
+            <span className="pt-2">
             1. a statement or theory that is put forward as a premise to be
             maintained or proved.
-          </span>
-        </div> */}
+          </span> */}
+          </div>
+        </div>
       </div>
     </section>
   );
