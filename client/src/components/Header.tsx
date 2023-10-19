@@ -35,9 +35,9 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex justify-center basis-1/3">
-        <span className="items-center text-3xl text-black font-mont">
+        <Link to="/" className="items-center text-3xl text-black font-mont">
           THESIS
-        </span>
+        </Link>
       </div>
       <div className="flex justify-center gap-5 text-2xl basis-1/3">
         <BsHandbag />
