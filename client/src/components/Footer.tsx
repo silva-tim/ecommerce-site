@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <footer className="h-40 text-white bg-zinc-800">Footer</footer>;
+  return (
+    <footer className="flex items-center h-40 text-white bg-zinc-800 font-mont">
+      <span>Copy</span>
+    </footer>
+  );
 }
