@@ -31,7 +31,7 @@ export default function Header() {
         </Link>
         |
         <Link to="/apothecary" className="hover:underline">
-          Apothecary
+          Embellishment
         </Link>
       </div>
       <div className="flex justify-center basis-1/3">
