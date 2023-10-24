@@ -1,3 +1,5 @@
+import ProductCard from "../components/ProductCard";
+
 export default function Men() {
   return (
     <section>
@@ -6,7 +8,9 @@ export default function Men() {
           MEN
         </span>
       </div>
-      <div className="h-screen bg-white"></div>
+      <div className="h-screen bg-white">
+        <ProductCard />
+      </div>
     </section>
   );
 }

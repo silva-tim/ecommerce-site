@@ -1,4 +1,3 @@
-import { BsDot } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -31,16 +30,6 @@ export default function Home() {
                 About
               </span>
             </div>
-            {/* <div className="flex items-center basis-full">
-                <BsDot />
-                <span className="flex font-serif text-2xl basis-full">
-                  thesis
-                </span>
-              </div>
-              <span className="pt-2">
-                1. a statement or theory that is put forward as a premise to be
-                maintained or proved.
-              </span> */}
           </div>
         </div>
       </div>
