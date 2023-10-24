@@ -17,8 +17,10 @@ export default function Header() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 transition text-white right-0 z-10 flex items-center justify-between h-24 text-xl ${
-        transparent || "bg-white border-b-black border-b text-black"
+      className={`fixed top-0 left-0 transition right-0 z-10 flex items-center justify-between h-24 text-xl ${
+        transparent
+          ? "text-white"
+          : "bg-white border-b-black border-b text-black"
       }`}
     >
       <div className="flex justify-center gap-5 basis-1/3 font-mont">
@@ -31,7 +33,7 @@ export default function Header() {
         </Link>
         |
         <Link to="/apothecary" className="hover:underline">
-          Embellishment
+          Apothecary
         </Link>
       </div>
       <div className="flex justify-center basis-1/3">
