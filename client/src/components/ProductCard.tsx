@@ -12,15 +12,15 @@ export default function ProductCard({
   alt,
 }: props) {
   return (
-    <div className="px-5 py-8 border basis-1/4">
-      <div className="h-5/6">
+    <div className="px-5 py-10 border basis-1/4">
+      <div className="h-3/4">
         <img
           src={productImage}
           alt={alt}
           className="object-cover w-full h-full rounded-lg drop-shadow"
         />
       </div>
-      <div className="pt-5 text-center">
+      <div className="pt-6 leading-8 text-center ">
         <span className="block font-sans font-bold">{productName}</span>
         <span className="font-sans">${price}</span>
       </div>
