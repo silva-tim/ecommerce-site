@@ -1,12 +1,29 @@
-export default function ProductCard() {
+type props = {
+  productName: string;
+  price: number;
+  productImage: string;
+  alt: string;
+};
+
+export default function ProductCard({
+  productName,
+  price,
+  productImage,
+  alt,
+}: props) {
   return (
-    <div className="w-1/4 rounded-md h-2/3">
-      <img
-        src="images/sunglasses.jpg"
-        alt=""
-        className="object-cover w-full h-full drop-shadow"
-      />
-      <span className="font-mont">Monaco Daybreak Sunglasses</span>
+    <div className="py-5 basis-1/4">
+      <div className="h-5/6">
+        <img
+          src={productImage}
+          alt={alt}
+          className="object-cover w-full h-full rounded-lg drop-shadow"
+        />
+      </div>
+      <div className="pt-4 text-center">
+        <span className="block font-sans font-bold">{productName}</span>
+        <span className="font-sans">${price}</span>
+      </div>
     </div>
   );
 }
