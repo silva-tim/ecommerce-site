@@ -6,7 +6,6 @@ export default function Women() {
           WOMEN
         </span>
       </div>
-      <div className="h-screen bg-white"></div>
     </section>
   );
 }

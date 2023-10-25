@@ -8,37 +8,39 @@ export default function Men() {
           MEN
         </span>
       </div>
-      <div className="flex flex-wrap justify-between">
-        <ProductCard
-          productImage="images/products/sunglasses.jpg"
-          productName="Monaco Daybreak Sunglasses"
-          price={50}
-          alt="sunglasses"
-        />
-        <ProductCard
-          productImage="images/products/sunglasses.jpg"
-          productName="Monaco Daybreak Sunglasses"
-          price={50}
-          alt="sunglasses"
-        />
-        <ProductCard
-          productImage="images/products/sunglasses.jpg"
-          productName="Monaco Daybreak Sunglasses"
-          price={50}
-          alt="sunglasses"
-        />
-        <ProductCard
-          productImage="images/products/sunglasses.jpg"
-          productName="Monaco Daybreak Sunglasses"
-          price={50}
-          alt="sunglasses"
-        />
-        <ProductCard
-          productImage="images/products/sunglasses.jpg"
-          productName="Monaco Daybreak Sunglasses"
-          price={50}
-          alt="sunglasses"
-        />
+      <div className="flex justify-center">
+        <div className="flex flex-wrap w-5/6">
+          <ProductCard
+            productImage="images/products/sunglasses.jpg"
+            productName="Monaco Daybreak Sunglasses"
+            price={50}
+            alt="sunglasses"
+          />
+          <ProductCard
+            productImage="images/products/sunglasses.jpg"
+            productName="Monaco Daybreak Sunglasses"
+            price={50}
+            alt="sunglasses"
+          />
+          <ProductCard
+            productImage="images/products/sunglasses.jpg"
+            productName="Monaco Daybreak Sunglasses"
+            price={50}
+            alt="sunglasses"
+          />
+          <ProductCard
+            productImage="images/products/sunglasses.jpg"
+            productName="Monaco Daybreak Sunglasses"
+            price={50}
+            alt="sunglasses"
+          />
+          <ProductCard
+            productImage="images/products/sunglasses.jpg"
+            productName="Monaco Daybreak Sunglasses"
+            price={50}
+            alt="sunglasses"
+          />
+        </div>
       </div>
     </section>
   );
