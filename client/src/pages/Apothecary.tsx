@@ -6,7 +6,6 @@ export default function Apothecary() {
           APOTHECARY
         </span>
       </div>
-      <div className="h-screen bg-white"></div>
     </section>
   );
 }

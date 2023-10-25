@@ -1,16 +1,11 @@
-type props = {
-  productName: string;
-  price: number;
-  productImage: string;
-  alt: string;
-};
+import { Product } from "../types/Card";
 
 export default function ProductCard({
   productName,
   price,
   productImage,
   alt,
-}: props) {
+}: Product) {
   return (
     <div className="px-5 py-10 border basis-1/4">
       <div className="h-3/4">
@@ -21,8 +16,8 @@ export default function ProductCard({
         />
       </div>
       <div className="pt-6 leading-8 text-center ">
-        <span className="block font-sans font-bold">{productName}</span>
-        <span className="font-sans">${price}</span>
+        <span className="block font-black font-mont">{productName}</span>
+        <span>${price}</span>
       </div>
     </div>
   );

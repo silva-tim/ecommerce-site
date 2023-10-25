@@ -43,7 +43,7 @@ export default function Header() {
       </div>
       <div className="flex justify-center gap-5 text-2xl basis-1/3">
         <BsHandbag />
-        <Link to="/">
+        <Link to="/" className="hover:scale-110">
           <BsHouse />
         </Link>
       </div>
