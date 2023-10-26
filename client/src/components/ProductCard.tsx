@@ -12,7 +12,7 @@ export default function ProductCard({
         <img
           src={productImage}
           alt={alt}
-          className="object-cover w-full h-full rounded-lg drop-shadow"
+          className="object-cover w-full h-64 rounded-lg drop-shadow"
         />
       </div>
       <div className="pt-6 leading-8 text-center ">

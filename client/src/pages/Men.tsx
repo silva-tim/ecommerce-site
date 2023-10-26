@@ -11,7 +11,7 @@ export default function Men() {
       <div className="flex justify-center">
         <div className="flex flex-wrap w-5/6">
           <ProductCard
-            productImage="images/products/sunglasses.jpg"
+            productImage="images/products/wallet.jpg"
             productName="Monaco Daybreak Sunglasses"
             price={50}
             alt="sunglasses"
