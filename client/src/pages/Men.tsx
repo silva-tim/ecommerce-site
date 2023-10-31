@@ -8,6 +8,7 @@ export default function Men() {
           MEN
         </span>
       </div>
+      <div className="h-16 border"></div>
       <div className="flex justify-center">
         <div className="flex flex-wrap w-5/6">
           <ProductCard
