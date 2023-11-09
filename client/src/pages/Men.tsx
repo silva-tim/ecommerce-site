@@ -30,7 +30,7 @@ export default function Men() {
             alt="sunglasses"
           />
           <ProductCard
-            productImage="images/products/sunglasses.jpg"
+            productImage="images/products/a.jpg"
             productName="Monaco Daybreak Sunglasses"
             price={50}
             alt="sunglasses"
