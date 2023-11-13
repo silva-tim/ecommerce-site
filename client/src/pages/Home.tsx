@@ -25,10 +25,15 @@ export default function Home() {
         </div>
         <div className="h-96 basis-5/6 mb-20 bg-center bg-cover rounded-xl bg-[url('/images/backgrounds/about.jpg')]">
           <div className="w-full h-full backdrop-blur-sm">
-            <div className="flex justify-center basis-full">
-              <span className="p-10 text-3xl font-black text-white font-mont">
+            <div className="flex flex-wrap justify-center basis-full">
+              <span className="p-10 text-3xl font-black text-center text-white font-mont basis-full">
                 About
               </span>
+              <p className="text-xl text-center text-white basis-2/3">
+                Thesis is a culmination of my web development journey thus far.
+                This full stack application exercises many of my various learned
+                technologies such as TypeScript, React ...
+              </p>
             </div>
           </div>
         </div>
