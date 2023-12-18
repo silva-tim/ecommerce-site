@@ -18,6 +18,8 @@ export default function ProductView() {
         setHasError(true);
       }
     }
-  });
+  }, [productId]);
+
+  // if (hasError) return <ErrorScreen />
   return <div></div>;
 }
