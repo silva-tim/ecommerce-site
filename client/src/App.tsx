@@ -4,6 +4,7 @@ import Men from "./pages/Men";
 import Layout from "./pages/Layout";
 import Women from "./pages/Women";
 import Apothecary from "./pages/Apothecary";
+import ProductView from "./pages/ProductView";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/apothecary" element={<Apothecary />} />
+        <Route path="/details/:productName" element={<ProductView />} />
       </Route>
     </Routes>
   );

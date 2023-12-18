@@ -1,24 +1,26 @@
+import { Link } from "react-router-dom";
 import { Product } from "../types/Product";
 
-export default function ProductCard({
-  productName,
-  price,
-  productImage,
-  alt,
-}: Product) {
+export default function ProductCard(product: Product) {
   return (
-    <div className="px-5 py-10 border basis-1/4">
+    <Link
+      to={`/details/${product.productId}`}
+      state={{ ...product }}
+      className="px-5 py-10 border cursor-pointer basis-1/4 group"
+    >
       <div className="h-3/4">
         <img
-          src={productImage}
-          alt={alt}
-          className="object-cover w-full h-64 rounded-lg drop-shadow"
+          src={product.productImage}
+          alt={product.alt}
+          className="object-cover w-full h-64 transition rounded-lg drop-shadow"
         />
       </div>
       <div className="pt-6 leading-8 text-center ">
-        <span className="block font-black font-mont">{productName}</span>
-        <span>${price}</span>
+        <span className="block font-black font-mont group-hover:underline">
+          {product.productName}
+        </span>
+        <span>${product.price}</span>
       </div>
-    </div>
+    </Link>
   );
 }

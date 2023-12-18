@@ -14,30 +14,7 @@ export default function Men() {
           <ProductCard
             productImage="images/products/wallet.jpg"
             productName="Monaco Daybreak Sunglasses"
-            price={50}
-            alt="sunglasses"
-          />
-          <ProductCard
-            productImage="images/products/sunglasses.jpg"
-            productName="Monaco Daybreak Sunglasses"
-            price={50}
-            alt="sunglasses"
-          />
-          <ProductCard
-            productImage="images/products/sunglasses.jpg"
-            productName="Monaco Daybreak Sunglasses"
-            price={50}
-            alt="sunglasses"
-          />
-          <ProductCard
-            productImage="images/products/a.jpg"
-            productName="Monaco Daybreak Sunglasses"
-            price={50}
-            alt="sunglasses"
-          />
-          <ProductCard
-            productImage="images/products/sunglasses.jpg"
-            productName="Monaco Daybreak Sunglasses"
+            productId={1}
             price={50}
             alt="sunglasses"
           />
